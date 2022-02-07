@@ -22,9 +22,6 @@ export const configurationCommon = ({ apiDomain }: { apiDomain: string }) => {
     language: {
       available: ['en'],
       default: 'en'
-    },
-    sentry: {
-      dsn: 'https://89b8956957ad4e5c800e036c4c5ed9c2@sentry.ronasit.com/121'
     }
   };
 };
