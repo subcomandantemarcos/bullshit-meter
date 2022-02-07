@@ -1,0 +1,7 @@
+@import 'variables';
+
+.news {
+  display: flex; align-items: flex-start; padding-top: 20px;
+  .card {padding: 0; margin-bottom: 20px;}
+  @media(max-width: $mobile) {display: block; padding-top: 0;}
+}
